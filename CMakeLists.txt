@@ -4,8 +4,8 @@ project(MyWxApp)
 set(CMAKE_CXX_STANDARD 17)
 
 # Your wxWidgets root path
-set(wxWidgets_ROOT_DIR "H:/HORIA/WX")
-set(wxWidgets_LIB_DIR "H:/HORIA/WX/lib/vc_x64_lib")
+set(wxWidgets_ROOT_DIR "/home/horia/wxWidgets-3.2.7")
+set(wxWidgets_LIB_DIR "/home/horia/wxWidgets-3.2.7/lib/vc_x64_lib")
 
 # Enable static or dynamic linking
 # Uncomment if you use static libraries
