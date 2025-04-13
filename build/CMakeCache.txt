@@ -225,7 +225,13 @@ MyWxApp_IS_TOP_LEVEL:STATIC=ON
 MyWxApp_SOURCE_DIR:STATIC=/home/horia/backrest/wxapp/wxapp
 
 //Location of wxWidgets library configuration provider binary (wx-config).
-wxWidgets_CONFIG_EXECUTABLE:FILEPATH=wxWidgets_CONFIG_EXECUTABLE-NOTFOUND
+wxWidgets_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/wx-config
+
+//Use debug build?
+wxWidgets_USE_DEBUG:BOOL=OFF
+
+//Location of wxWidgets resource file compiler binary (wxrc)
+wxWidgets_wxrc_EXECUTABLE:FILEPATH=/usr/bin/wxrc
 
 
 ########################
@@ -377,6 +383,8 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding wxWidgets
+FIND_PACKAGE_MESSAGE_DETAILS_wxWidgets:INTERNAL=[-L/usr/lib/x86_64-linux-gnu;-pthread;;;-lwx_gtk3u_core-3.2;-lwx_baseu-3.2][/usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2;/usr/include/wx-3.2][v3.2.4()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
