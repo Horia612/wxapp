@@ -1,3 +1,0 @@
-/mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles/MyWxApp.dir
-/mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles/edit_cache.dir
-/mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles/rebuild_cache.dir
