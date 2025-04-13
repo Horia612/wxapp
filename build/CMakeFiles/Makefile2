@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/horia/backrest/wxapp/wxapp
+CMAKE_SOURCE_DIR = /mnt/h/HORIA/Projects/ColorOrganizer/wxapp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/horia/backrest/wxapp/wxapp/build
+CMAKE_BINARY_DIR = /mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/MyWxApp.dir/clean
 CMakeFiles/MyWxApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/horia/backrest/wxapp/wxapp/build/CMakeFiles --progress-num=1,2 "Built target MyWxApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles --progress-num=1,2 "Built target MyWxApp"
 .PHONY : CMakeFiles/MyWxApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyWxApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horia/backrest/wxapp/wxapp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyWxApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/horia/backrest/wxapp/wxapp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/h/HORIA/Projects/ColorOrganizer/wxapp/build/CMakeFiles 0
 .PHONY : CMakeFiles/MyWxApp.dir/rule
 
 # Convenience name for target.

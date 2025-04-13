@@ -3,18 +3,14 @@ project(MyWxApp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# Your wxWidgets root path
-set(wxWidgets_ROOT_DIR "/home/horia/wxWidgets-3.2.7")
-set(wxWidgets_LIB_DIR "/home/horia/wxWidgets-3.2.7/lib/vc_x64_lib")
-
-# Enable static or dynamic linking
-# Uncomment if you use static libraries
-# set(wxWidgets_USE_STATIC ON)
-
-# Find and include wxWidgets
+# Automatically find wxWidgets using wx-config
 find_package(wxWidgets REQUIRED COMPONENTS core base)
+
+# Include wxWidgets settings
 include(${wxWidgets_USE_FILE})
 
-# Add your executable and link wxWidgets
-add_executable(MyWxApp main.cpp)
+# Add your executable
+add_executable(MyWxApp main.cpp)  # Add more source files here as needed
+
+# Link wxWidgets libraries
 target_link_libraries(MyWxApp ${wxWidgets_LIBRARIES})

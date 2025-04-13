@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/horia/backrest/wxapp/wxapp/main.cpp" "CMakeFiles/MyWxApp.dir/main.cpp.o" "gcc" "CMakeFiles/MyWxApp.dir/main.cpp.o.d"
+  "/mnt/h/HORIA/Projects/ColorOrganizer/wxapp/main.cpp" "CMakeFiles/MyWxApp.dir/main.cpp.o" "gcc" "CMakeFiles/MyWxApp.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
